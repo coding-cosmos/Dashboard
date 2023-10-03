@@ -18,6 +18,47 @@ img{
 
 .menu{
     grid-row: 1/span 4;
+
+    background-color: #0ea5e9;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 16px;
+}
+
+.menu .logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.menu .logo img{
+    height: 56px;
+}
+.menu .logo span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu .main-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+}
+.menu .main-menu-item, .menu .more-menu-item{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.menu .more-menu{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .nav{
