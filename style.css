@@ -14,8 +14,39 @@ img{
 
 .header{
     grid-column: 2/4;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.header #search{
+    display: flex;
+    gap: 8px;
+    padding-left: 32px;
+
+}
+.header #account{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-right: 32px;
 }
 
+.header #search input{
+    min-width: 25vw;
+    outline: 1px solid lightgray;
+    background-color: #e0f2fe;
+    border: none;
+    border-radius: 16px;
+    height: 24px;
+}
+
+.header #account #account_pfp{
+    height: 48px;
+}
+.header #account #name{
+    font-size: 1rem;
+    font-weight: bold;
+}
 .menu{
     grid-row: 1/span 4;
 
